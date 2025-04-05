@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Env files
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Build folders (jika ada build step)
+dist/
+build/
+
+# Railway generated
+.project
+
+# PM2 logs
+pids
+*.pid
+*.seed
+*.pid.lock
