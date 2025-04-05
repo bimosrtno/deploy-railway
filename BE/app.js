@@ -10,5 +10,4 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.get ("/api/hello", (req, res) => res.send("Hello World!"));
 
-// Export app untuk server.js
 module.exports = app;
